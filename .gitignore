@@ -1,0 +1,8 @@
+# Object Files
+*.o *.gch
+
+# Backup files
+.*~ *~
+
+# Binary
+qls
