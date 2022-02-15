@@ -11,7 +11,7 @@ main(int argc, char *argv[])
 		{
 			if(chdir(argv[i]) != 0)
 			{
-				perror("main(): cannot access the dir");
+				perror("qls: cannot access the dir");
 				exit(EXIT_FAILURE);
 			}	
 			listfiles(".");
